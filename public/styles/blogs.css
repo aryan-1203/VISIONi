@@ -1,0 +1,84 @@
+.ok{
+    background-color: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(17, 149, 232, 0.9)
+      );
+      color: antiquewhite;
+      text-shadow: 3px;
+      font-size: 0.95rem;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 5px;
+      margin: 5px;
+      
+}
+
+body{
+    background-color:rgba(0, 120, 195, 0.9);
+}
+.ip{
+    padding: 50px;
+}
+
+.blog{
+    padding-bottom: 150px;
+}
+
+#done{
+    padding: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    padding-bottom: 5px;
+    color: rgb(212, 18, 86);
+    text-shadow: rgb(63, 255, 24) 1px 0 4px;
+}
+
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 2px;
+    text-shadow: rgb(63, 255, 24) 1px 0 10px;
+}
+
+.image_bp{
+    background-color: rgba(0, 0, 0, 0.318);
+    border-radius: 8px;
+    
+}
+
+.text{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.text a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: rgb(63, 255, 24) 1px 0 10px;
+}
+.text a:hover{
+    text-decoration: dashed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: rgb(42, 119, 26) 1px 0 10px;
+    border-radius: 8px;
+}

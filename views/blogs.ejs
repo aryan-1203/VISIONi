@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <%- include('include/headdata') %>
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/blogs.css" />
+  </head>
+
+  <body>
+
+
+<%- include('include/header') %>
+
+    <div class="ip"><p class="ok" ><%= initial %></p></div>
+
+    <a id="done" href="/compose">Can you help the community!</a>
+    <div class="blog">
+        <% blogpost.forEach(function(post){ %>
+            
+            
+            <div class="container">
+                <div src="img_avatar.png" alt="Avatar" class="image_bp" style="width:100%">
+                    <h1>  <%= post.title %></h1>
+                    <p > 
+                        <%= post.content?.substring(0,100) + "...." %>
+                        
+                    </p>
+                
+                </div>
+                
+                <div class="middle">
+                  <div class="text"><a href="/blogpost/<%=post._id%>">Read More</a></div>
+                </div>
+              </div>
+            <!-- <video width="320" height="240" autoplay muted>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+           </div> -->
+            
+    
+        <% }); %>
+    </div>
+    
+  </body>
+</html>

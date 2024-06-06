@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <%- include('include/headdata') %>
+    <!-- <link rel="stylesheet" href="/styles/addtractor.css" /> -->
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/compose.css" />
+  </head>
+
+  <body>
+
+
+<%- include('include/header') %>
+<h1 id="headin">Help the community!</h1>
+    <form  id="frm" action="/compose" method="post">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Question you are answering</label>
+            <input type="text" name="title" class="form-control" id="exampleFormControlInput1" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Post your answer here</label>
+            <textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+          </div>
+          <button  name="button" class="btn btn-primary"  id="blue" type="submit" >Publish</button>
+    </form>
+  </body>
+</html>

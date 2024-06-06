@@ -1,0 +1,49 @@
+body{
+    padding-bottom: 15px;
+    background: linear-gradient(
+    0deg,
+    rgb(0, 0, 0, 0.9),
+    rgb(22, 128, 195)
+  );
+    
+}
+h1{
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-style: italic;
+    background-color: black;
+    border-radius: 4px;
+    padding: 2px;
+    text-align: center;
+    text-shadow: 2px;
+    font-weight: bolder;
+    
+}
+
+h1:hover{
+    /* font-size: 35px; */
+    color: antiquewhite;
+}
+
+.card-body{
+    background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8),
+    rgba(22, 128, 195, 0.9)
+  );
+  margin: 4px;
+  border-radius: 8px;
+  border-color: black;
+}
+
+.card-subtitle text-muted mb-2{
+    color: black;
+    font-weight: bold;
+}
+
+.ok{
+    padding-bottom: 3px;
+    font-weight: bold;
+    
+}

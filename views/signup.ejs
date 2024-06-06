@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <%- include('include/headdata') %>
+    
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/signup.css" />
+    
+  </head>
+<body>
+  <%- include('include/auth_header.ejs') %>
+  <main id="signup">
+    <h1>Signup</h1>
+    <form id="a" action="/signup" method="POST">
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-control">
+        <label for="confirm-email">Confirm Email</label>
+        <input type="email" id="confirm-email" name="confirm-email" required>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button id="authh-alternative" class="btn">Create user</button>
+    </form>
+    <div id="auth-alternative">
+      <a class="btn btn-alt" href="/login">Login instead</a>
+    </div>
+  </main>
+</body>
+
+</html>

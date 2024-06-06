@@ -1,0 +1,72 @@
+body {
+  margin-bottom: 10px;
+}
+
+#section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9),
+    rgba(17, 149, 232, 0.9)
+  );
+  background-size: cover;
+  gap: 20px;
+  align-items: center;
+}
+
+/* border-radius: 8px; */
+.cardcls {
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 30px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  height: 250px;
+  background-size: cover;
+}
+
+.card {
+  background-color: black;
+  border-radius: 8px;
+}
+
+.card-body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+  border-radius: 8px;
+}
+
+
+
+.btn {
+  background-color: black;
+  text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+  color: black;
+  text-shadow: rgb(230, 110, 19) 1px 0 10px;
+}
+
+.card-title {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.card-title:hover{
+    text-shadow: 1px 1px 2px yellow, 0 0 1em blue, 0 0 0.2em blue;
+    color:black;
+}
+
+.card-text {
+  color: white;
+}
+
+.btn {
+  color: rgba(17, 149, 232, 0.9);
+}

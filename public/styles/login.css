@@ -1,0 +1,54 @@
+main{
+    margin: 6rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#signup{
+  color: rgb(236, 226, 226);
+  margin: 0;
+  padding: 15px;
+  width: 20rem;
+  height: 25rem;
+  background-color: rgb(27, 26, 22);
+  border-radius: 10px;
+  margin-left: 28rem;
+  margin-top: 3rem;
+}
+
+input{
+  width: 15rem;
+}
+
+body{
+    background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(17, 149, 232, 0.9)
+  );
+}
+
+.form-control{
+  margin: 5px;
+}
+
+button{
+  margin-left: 3.7rem;
+  margin-right: 4rem;
+  width: 10rem;
+}
+
+#auth-alternative{
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
+form{
+  margin-bottom: 5px;
+}

@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(17, 131, 202, 0.9)
+  );
+  color: black;
+  text-shadow: 2px 2px 2.5px black;
+  
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 3rem;
+}
+
+#map {
+  height: 75vh;
+}
+
+.gm-style-iw-d {
+  color: #000000;
+}
+

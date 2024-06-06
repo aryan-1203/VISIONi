@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <%- include('include/headdata') %>
+    <link rel="stylesheet" href="/styles/addtractor.css" />
+    <link rel="stylesheet" href="/styles/shared.css" />
+  </head>
+
+  <body>
+    <%- include('include/header') %>
+
+    <main>
+      <section id="section1">
+        <h1 id="headin">Share your favorite Choices</h1>
+        <form id="formis" method="POST" action="/addtractor">
+          <div class="forms">
+            <label for="tracname" id="tracname">Enter Brand Name</label>
+            <input
+              id="name"
+              name="tracname"
+              type="text"
+              placeholder="Model name also required"
+              required
+            />
+          </div>
+
+          <div class="forms">
+            <label id="tracdescrs" for="tracdescr">Enter Some Details </label>
+            <textarea
+              name="tracdescr"
+              id="tracdescr"
+              cols="20"
+              rows="3"
+              minlength="10"
+              maxlength="68"
+              required
+            ></textarea>
+          </div>
+
+          <div id="tracim" class="forms">
+            <label for="tracimg">Enter The Image Url</label>
+            <input name="tracimg" id="tracimg" type="url" />
+          </div>
+
+          <div class="forms">
+            <label id="urli" for="urlis">Link 2 Official Page</label>
+            <input name="tracurl" id="urlis" type="url" />
+          </div>
+          <div class="forms">
+            <input id="fors" type="submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

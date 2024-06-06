@@ -1,0 +1,72 @@
+#section1 {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9),
+    rgba(17, 149, 232, 0.9)
+  );
+  text-align: center;
+  height: 500px;
+}
+
+#headin {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+#formis {
+  /* box-shadow: 10px 5px 5px rgba(17, 149, 232, 0.9); */
+  color: white;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 20rem;
+  height: 25rem;
+  text-align: center;
+  margin: auto;
+  border: thick double #32a1ce;
+  border-radius: 10px;
+}
+
+#tracname, #tracdescrs, #tracim, #urli{
+  color: white;
+  font-family: "Pacifico", cursive;
+  padding: 2px;
+}
+
+#tracname:hover, #tracdescrs:hover, #tracim:hover, #urli:hover {
+  color: black;
+  text-shadow: rgb(63, 255, 24) 1px 0 10px;
+  size: 30px;
+}
+
+#name, #tracdescr, #tracimg, #urlis{
+  width: 15rem;
+  border-color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(17, 149, 232, 0.9)
+  );
+  color: white;
+  border-radius: 5px;
+}
+
+#fors{
+  width: 4rem;
+  border-color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(17, 149, 232, 0.9)
+  );
+  color: white;
+  border-radius: 5px;
+  margin: 25px;
+  margin-bottom: 10px;
+}
+
+.forms{
+  margin: 5px;
+}
+

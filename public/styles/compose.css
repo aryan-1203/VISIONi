@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9),
+      rgba(17, 149, 232, 0.9)
+    );
+    text-align: center;
+    height: 500px;
+  }
+
+#headin {
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+
+#frm {
+    /* box-shadow: 10px 5px 5px rgba(17, 149, 232, 0.9); */
+    color: white;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 20rem;
+    height: 25rem;
+    text-align: center;
+    margin: auto;
+    border: thick double #32a1ce;
+    border-radius: 10px;
+}                                                                                                                         
+
+input, label{
+    color: white;
+    font-family: "Pacifico", cursive;
+    padding: 2px;
+    
+  }
+
+  input:hover, label:hover {
+    color: black;
+    text-shadow: rgb(63, 255, 24) 1px 0 10px;
+    size: 30px;
+  }
+
+
+ input,textarea, label{
+    width: 15rem;
+  border-color: white;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(17, 149, 232, 0.9)
+  );
+}
+div{
+    padding: 5px;
+}
+
+
+  label{
+    border-radius: 8px;
+  }

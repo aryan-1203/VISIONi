@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('include/headdata') %>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VISIONi</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/index.css" />
+  <link rel="stylesheet" href="/styles/shared.css" />
+</head>
+<body>
+  <%- include('include/header') %>
+  
+  <h1>VISIONi customized Map Serivces
+    For Agricultural Shops
+  </h1>
+
+  <div id="map"></div>
+
+  <script src=" /scripts/script.js"></script>
+
+  <!-- Replace API_KEY and MAP_ID with your own ones -->
+  <script data-main="/scripts/script" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClUbnLxIumdxT204_52gwWRW5EVGzBirM&map_ids=b2c293e7b7d8dc17&callback=initMap">
+  </script>
+</body>
+</html>

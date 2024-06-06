@@ -1,0 +1,26 @@
+{
+  "name": "visioni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dompurify": "^2.4.3",
+    "ejs": "^3.1.8",
+    "express-session": "^1.17.3",
+    "jsdom": "^21.1.0",
+    "marked": "^4.2.12",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.13.0",
+    "slugify": "^1.6.5",
+    "uuid": "^9.0.0"
+  }
+}
